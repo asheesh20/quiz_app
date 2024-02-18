@@ -16,12 +16,3 @@ class abc extends StatelessWidget {
     return const Text('Nothing');
   }
 }
-
-class bc extends StatelessWidget {
-  const bc({super.key});
-
-  @override
-  Widget build(context) {
-    return const Text('Hello folks');
-  }
-}
