@@ -7,3 +7,19 @@ void main() {
     const Quiz(),
   );
 }
+
+class newFeature extends StatelessWidget {
+  const newFeature({super.key});
+
+  @override
+  Widget build(context) {
+    return Scaffold(
+      backgroundColor: Colors.grey,
+      body: Container(
+        decoration: const BoxDecoration(
+          color: Color.fromARGB(255, 154, 115, 115),
+        ),
+      ),
+    );
+  }
+}
