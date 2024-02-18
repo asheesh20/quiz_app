@@ -7,12 +7,3 @@ void main() {
     const Quiz(),
   );
 }
-
-class Anything extends StatelessWidget {
-  const Anything({super.key});
-
-  @override
-  Widget build(context) {
-    return const Text('Hello there');
-  }
-}
